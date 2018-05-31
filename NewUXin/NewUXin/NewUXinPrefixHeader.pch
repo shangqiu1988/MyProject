@@ -1,0 +1,23 @@
+//
+//  NewUXinPrefixHeader.pch
+//  NewUXin
+//
+//  Created by tanpeng on 17/8/9.
+//  Copyright © 2017年 Study. All rights reserved.
+//
+
+#ifndef NewUXinPrefixHeader_pch
+#define NewUXinPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* NewUXinPrefixHeader_pch */
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "UXinCommConfig.h"
+#import "UXinDefaultHelper.h"
+#import "UXinUrlConfig.h"
+#import "UXinAlerTitleConfig.h"
+#import "UIView+additions.h"
+#endif

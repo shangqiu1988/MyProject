@@ -1,0 +1,52 @@
+source 'git@github.com:CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'NewUXin' do
+	pod 'AFNetworking', '~> 3.1.0'
+	pod 'Texture', '~> 2.5.1'
+	pod 'FMDB', '~> 2.7.2'
+	pod 'JSONKit', '~> 1.5pre'
+	pod 'Masonry', '~> 1.1.0'
+	pod 'MJRefresh', '~> 3.1.15.1'
+	pod 'ReactiveObjC', '~> 3.0.0'
+	pod 'FLAnimatedImage', '~> 1.0.12'
+	pod 'DACircularProgress', '~> 2.3.1'
+    pod 'StreamingKit', '~> 0.1.29'
+    pod 'YYModel', '~> 1.0.4'
+    pod 'IQKeyboardManager', '~> 4.0.11'
+    pod 'KMCGeigerCounter', '~> 0.2.2'
+    pod 'GPUImage', '~> 0.1.7'
+    pod 'SocketRocket', '~> 0.5.1'
+    pod 'BRPickerView', '~> 1.1.0'
+     pod 'SVProgressHUD', '~> 2.2.2'
+     pod 'SnailQuickMaskPopups', '~> 1.0.1'
+     pod 'LEEAlert', '~> 1.1.5'
+     pod 'SSZipArchive', '~> 2.1.1'
+     pod 'DZNEmptyDataSet', '~> 1.8.1'
+     pod 'SDCycleScrollView', '~> 1.75'
+     pod 'WRNavigationBar', '~> 1.1.0'
+     pod 'JTCalendar', '~> 2.2.1'
+     pod 'TTTAttributedLabel', '~> 2.0.0'
+     pod 'RegexKitLite', '~> 4.0'
+     pod 'hpple', '~> 0.2.0'
+     pod 'JDStatusBarNotification', '~> 1.5.6'
+      pod 'ZFPlayer', '~> 2.1.5'
+      pod 'MBProgressHUD', '~> 1.1.0'
+       pod 'TYPagerController', '~> 2.1.0'
+       pod 'YYDispatchQueuePool', '~> 1.0'
+        pod 'YTKNetwork', '~> 2.0.4'
+        pod 'YYCache', '~> 1.0.4'
+         pod 'LKDBHelper', '~> 2.5.1'
+     pod 'React', :path => 'node_modules/react-native', :subspecs => [
+    'Core',
+    'DevSupport',
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', 
+    'BatchedBridge',
+  ]
+  pod "Yoga", :path => "node_modules/react-native/ReactCommon/yoga"
+    target 'NewUXinTests' do
+        inherit! :search_paths
+    end
+end
